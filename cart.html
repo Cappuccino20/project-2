@@ -1,0 +1,235 @@
+<html>
+<head>
+
+  <title>Clothing Website</title>
+  <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!---Main CSS--->
+  <link rel="stylesheet" type="text/css" href="style.css"> ​
+  <!---Font awesome--->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+  </head>
+  <!-- Navigation Bar -->
+  <header>
+  <body style="background-color:#66CDAA;" class="colors">
+  <div class="wrapper">
+      <div class="multi_color_border"></div>
+      <div class="top_nav">
+          <div class="left">
+            <div class="logo"><a href="index.html"><p><span>Fashion</span>Market</p></div>
+                   <a href="#"><div class="search_bar">
+                <input type="text" placeholder="Search">
+            </div>
+   </div>
+        <div class="right">
+          <ul>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
+            <li><a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>LogIn</a></li>
+            <li><a href="signup.html"><i class="fa fa-sign-in" aria-hidden="true"></i>SignUp</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="bottom_nav">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+          <li><a href="Newin.html"><i class="fa fa-external-link-square" aria-hidden="true"></i>New In</a></li>
+          <li><a href="women.html"><br/><img class="icon" src="https://img.icons8.com/material-sharp/20/000000/t-shirt.png"/>Women</a></li>
+          <li><a href="makeup.html"><br/><img class="icon"src="https://img.icons8.com/plasticine/20/000000/lipstick.png"/>Makeup</a></li>
+          <li><a href="accessories.html"><br/><img class="icon" src="https://img.icons8.com/material/16/000000/necklace.png"/>Accessories</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i>Contact Us</a></li>
+          <li><a href="about.html"><i class="fa fa-user" aria-hidden="true"></i>About Us</a></li>
+        </ul>
+    </div>
+  </div>
+  </header>
+  <!--End Navigation Bar -->
+   <hr>
+<center>
+<img  src="img/shop.gif" alt="img/shop.gif" height="500" width="1500">
+</center>
+
+  <br/>
+
+  <!-- Clip Art -->
+  <a href="https://www.w3schools.com/" target="_blank">
+  <img src="img/gif6.gif" alt="gif6" height="100" width="100" />
+  </a>
+
+  <br/><br/>
+    <a href="signup.html"><img src="img/coupon.jpg" style="float:left" alt="coupon" height="150" width="250"></a>
+    <a href="makeup.html"><img src="img/gif3.gif" style="float:right" alt="gif3" height="300" width="500"></a>
+
+
+
+
+
+<br/><br/>
+<center>
+ <div id="wrapper">
+         <div id="inputs">
+    <div>
+<div>
+
+<form name="myForm" action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post" onsubmit="return ValidateForm(CardName,CardNumber,ExpirationMonth,ExpirationYear,cvv,Address)" class="for">
+
+   <h1 class="orders">Order</h1>
+    First name: <input type="text" name="firstname" placeholder="John"><br/>
+    Last name: <input type="text" name="lastname" placeholder="Smith"><br/>
+    Address:<input type="text" name="Address" placeholder="1234 Street City, ST Zip">
+    <br/><br/><br/><br/>
+    <p>Choose Your Product</p>
+
+
+
+<!-- Women Secton -->
+<select id="choice" name='Dress'>
+<option value = 'Dress'>Dress:</option>
+<option value = 'Floral'>Floral Dress $20</option>
+<option value = 'Ruffle Trim'>Ruffle Trim $18</option>
+<option value = 'Cold Shoulder Floral'>Cold Shoulder Floral $18</option>
+<option value = 'Calico Print Dress'>Calico Print Dress $20</option>
+<option value = 'Light Pink Dress'>Light Pink Dress $25</option>
+<option value = 'White Romper'>T-shirts & Tees:</option>
+<option value = 'Black Orange Romper'>Black Orange Romper $20</option>
+<option value = 'White Romper'>White Romper $18</option>
+<option value = 'Gray Striped Romper'>Gray Striped Romper $22</option>
+<option value = 'Green Hem Romper'>Green Hem Romper $15</option>
+<option value = 'Dark Red Romper'>Dark Red Romper $16</option>
+<option value = 'Jeans'>Jeans:</option>
+<option value = 'Wide Leg Denim'>Wide Leg Denim $24</option>
+<option value = 'Skinny Jeans'>Skinny Jeans $30</option>
+<option value = 'High Rise Jeans'>High Rise Jeans $25</option>
+<option value = 'High Waist Black Jeans'>High Waist Black Jeans $30</option>
+<option value = 'Ripped Jeans'>Ripped Jeans $25</option>
+<option value = 'Rodeo'>Rodeo Dress</option>
+</select>
+
+
+
+<select id="choice1" name=' size' >
+  <option value = 'Sizes'>Sizes:</option>
+  <option value = 'XS'>XS</option>
+  <option value = 'X'>X</option>
+  <option value = 'M'>M</option>
+  <option value = 'L'>L</option>
+  <option value = 'XL'>XL</option>
+  </select>
+
+  <input type="radio" name="teens" class="size">Teens</input>
+  <input type="radio" name="adults" class="size">Adults</input>
+
+  <!-- End of Women Secton -->
+
+
+
+
+<!-- Make up -->
+  <br/><br/>
+  <p>Makeups</p>
+
+  <select id="choice2" name='makeups'>
+    <option value = 'Eyeshadow Palette'>Eyeshadow Palette:</option>
+    <option value = 'Avocado Green Palette'>Avocado Green Palette $19.99</option>
+    <option value = 'Strawberry Eyeshadow Palette'>Strawberry Eyeshadow Palette $29.99</option>
+    <option value = 'Nude Eyeshadow Palette'>Nude Eyeshadow Palette $30</option>
+    <option value = 'Purple Eyeshadow Palette'>Purple Eyeshadow Palette $25.99</option>
+    <option value = 'So Jaded Eyeshadow Palette $20.99'>So Jaded Eyeshadow Palette $20.99</option>
+    <option value = 'Lipsticks'>Lipsticks:</option>
+    <option value = 'Dark Red Matte Lipstick $15'>Dark Red Matte Lipstick $15</option>
+    <option value = 'Burberry Lipstick $22.99'>Burberry Lipstick $22.99</option>
+    <option value = 'Burberry Mix Lipstick $15.99'>Burberry Mix Lipstick $15.99</option>
+    <option value = 'Gold Lipgloss $20'>Gold Lipgloss $20</option>
+    <option value = 'Pink Lipgloss $26'>Pink Lipgloss $26</option>
+    <option value = 'Blush'>Blush:</option>
+    <option value = 'Pink Blush $20'>Pink Blush $20</option>
+    <option value = 'Happy Booster Blush $18'>Happy Booster Blush $18</option>
+    <option value = 'Powder Blush $15.99'>Powder Blush $15.99</option>
+    <option value = 'Liquid Blush $20.99'>Liquid Blush $20.99</option>
+    <option value = 'Nars Liquid blush $30.99'>Nars Liquid blush $30.99</option>
+    </select>
+  <br/><br/>
+<!-- End of cart -->
+
+
+
+
+
+
+  <!-- Accessories Section -->
+         <p>Accessories</p>
+
+    <select id="choice3" name='earrings'>
+    <option value = 'Earrings'>Earrings:</option>
+    <option value = 'Floral Drop Earring $1.50'>Floral Drop Earring $1.50</option>
+    <option value = '3pairs Drop Earrings $4.50'>3pairs Drop Earrings $4.50</option>
+    <option value = 'Daisy Earrings $2.00'>Daisy Earrings $2.00</option>
+    <option value = 'Long Strip Earrings $3.00'>Long Strip Earrings $3.00</option>
+    <option value = '6pairs stud Earrings $2.00'>6pairs stud Earrings $2.00</option>
+    <option value = 'Necklaces'>Necklaces:</option>
+    <option value = 'Star Decor Chain Choker $3.00'>Star Decor Chain Choker $3.00</option>
+    <option value = '2 Layered Chain Necklace $2.50'>2 Layered Chain Necklace $2.50</option>
+    <option value = 'Key & Lock Charm Chain $3.49'>Key & Lock Charm Chain $3.49</option>
+    <option value = 'Disc & Heart Chain $3.00'>Disc & Heart Chain $3.00</option>
+    <option value = 'Dark Red Romper'>Pin & Ball Necklace $3.50</option>
+    <option value = 'New Arrivals'>New Arrivals:</option>
+    <option value = 'Safety Pin Earrings $4.00'>Safety Pin Earrings $4.00</option>
+    <option value = 'Pearl Leaf Earrings $3.50'>Pearl Leaf Earrings $3.50</option>
+    <option value = 'Leaf Hoop Earrings $3.49'>Leaf Hoop Earrings $3.49</option>
+    </select>
+<input type="checkbox" name="silver" class="color">Silver
+<input type="checkbox" name="gold" class="color">Gold
+
+
+     <!-- End of Accessories Section -->
+
+
+
+
+
+             <br/><br/><br/>
+             <!-- Credit Card Information -->
+      Name on Card: <input type="text" name="CardName" /><br/><br/>
+      Number on Card: <input type="text" name="CardNumber" /><br/><br/>
+      ExpirationMonth: <input type="text" name="ExpirationMonth" /><br/><br/>
+      ExpirationYear: <input type="text" name="ExpirationYear" /><br/><br/>
+      cvv <input type="text" name="cvv" /><br/><br/>
+
+      <input type="submit" class="bttn" value="Click to Submit" /><input type='reset' class="bttn" value='Reset order' />
+
+           </form>
+
+</div>
+</div>
+</div>
+</center>
+<!--End Credit Card Information -->
+<br/>
+<!---Footer--->
+<footer>
+<div class="centerdiv">
+<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a>
+<a href="https://twitter.com/login" target="_blank"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+<a href="https://www.youtube.com/" target="_blank"><i class="fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+</div>
+<h6 class="location">169-28 Hillside Ave, Jamaica, NY 11432</h6>
+<h6 class="location">Contact:(718) 725-0001 Email: Fashion@Market.com</h6>
+
+</footer>
+<!-- End of footer -->
+
+
+
+
+
+
+
+</body>
+<!--Linking JavaScript File-->
+<script src="Js/script.js"></script>
+</html>
